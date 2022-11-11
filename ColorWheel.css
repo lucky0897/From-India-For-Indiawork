@@ -1,0 +1,31 @@
+body{
+    margin: 60px auto;
+    background-color: #f5f5f7;
+}
+
+#colorWheel{
+    height: 100px;
+     width: 100px;
+     margin: 0 auto;
+     position: relative;
+     transform-origin: 50px 150px ;
+     user-select: none;
+     transition: all 0.5s linear;
+}
+
+#colorWheel span{
+    position: absolute;
+    transform-origin: 50% 50%;
+    border-style:solid ;
+    border-width: 150px 50px;
+    box-sizing: border-box;
+}
+
+#colorWheel span.color1{
+    transform: rotate(0deg);
+    border-color: #43a1cd transparent transparent transparent;
+}
+
+#colorWheel span.color2{
+    border-color: #639b47 transparent transparent transparent;
+}

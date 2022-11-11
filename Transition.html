@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transition</title>
+</head>
+<style>
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+/* transition:  transform 5s ; */
+/* transition-timing-function:  ease; */
+/* transition-delay: 1s;   */
+/* transition-duration: 10s; */
+/* transition-property: width 2s, height 5s; */
+
+transition: transform 5s ;
+}
+
+div:hover{
+    transform: rotatey(180deg);
+}
+
+</style>
+
+<body>
+
+    <div></div>
+
+
+<!-- for transition u write the property u want to apply it too so transform and then you write the amount of seconds witha "s" and  then the transformation will take that many seconds -->
+
+
+
+<!-- the transformation will take that many second to start -->
+
+<!-- 
+linear means one line and ease and linear makes them go smotherr 
+ease will start slow and the nbecome fast and then end slow
+The TRANSITION CURVE
+Linear is only one sppeed from start to end
+theese are for transistion-timing-function-->
+
+
+<!-- transition works for anything but u MUST specify thhough it mostly used with the transform property -->
+
+<!-- rotate x is horizontaly and y is verticaly and the z axis is the normal rotation -->
+
+</body>
+</html>
